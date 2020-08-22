@@ -9,6 +9,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>ActiveMQ</module>
+        <module>RPC</module>
+        <module>LeetCode</module>
+        <module>NIO</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -22,6 +25,9 @@
         <log4j.version>1.2.17</log4j.version>
         <mysql.version>8.0.18</mysql.version>
         <druid.version>1.1.16</druid.version>
+        <activemq.version>5.16.0</activemq.version>
+        <jedis.version>3.3.0</jedis.version>
+        <fastjson.version>1.2.73</fastjson.version>
         <druid-spring-boot-starter.version>1.1.22</druid-spring-boot-starter.version>
         <mybatis.spring.boot.version>2.1.1</mybatis.spring.boot.version>
     </properties>
@@ -87,6 +93,38 @@
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid-spring-boot-starter</artifactId>
                 <version>${druid-spring-boot-starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId></groupId>
+                <artifactId>s</artifactId>
+            </dependency>
+
+            <!-- jedis -->
+            <dependency>
+                <groupId>redis.clients</groupId>
+                <artifactId>jedis</artifactId>
+                <version>${jedis.version}</version>
+            </dependency>
+
+            <!--  fastjson -->
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
+
+            <!-- activemq-all -->
+            <dependency>
+                <groupId>org.apache.activemq</groupId>
+                <artifactId>activemq-all</artifactId>
+                <version>${activemq.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <optional>true</optional>
             </dependency>
 
         </dependencies>
