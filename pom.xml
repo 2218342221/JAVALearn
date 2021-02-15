@@ -12,6 +12,7 @@
         <module>RPC</module>
         <module>LeetCode</module>
         <module>NIO</module>
+        <module>RocketMQ</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -26,6 +27,7 @@
         <mysql.version>8.0.18</mysql.version>
         <druid.version>1.1.16</druid.version>
         <activemq.version>5.16.0</activemq.version>
+        <rocketmq.starter.version>2.2.0</rocketmq.starter.version>
         <jedis.version>3.3.0</jedis.version>
         <fastjson.version>1.2.73</fastjson.version>
         <druid-spring-boot-starter.version>1.1.22</druid-spring-boot-starter.version>
@@ -94,10 +96,7 @@
                 <artifactId>druid-spring-boot-starter</artifactId>
                 <version>${druid-spring-boot-starter.version}</version>
             </dependency>
-            <dependency>
-                <groupId></groupId>
-                <artifactId>s</artifactId>
-            </dependency>
+
 
             <!-- jedis -->
             <dependency>
@@ -119,6 +118,14 @@
                 <artifactId>activemq-all</artifactId>
                 <version>${activemq.version}</version>
             </dependency>
+
+            <!--rocketmq-spring-boot-starter -->
+            <dependency>
+                <groupId>org.apache.rocketmq</groupId>
+                <artifactId>rocketmq-spring-boot-starter</artifactId>
+                <version>${rocketmq.starter.version}</version>
+            </dependency>
+
 
             <dependency>
                 <groupId>org.projectlombok</groupId>
