@@ -14,6 +14,7 @@
         <module>NIO</module>
         <module>RocketMQ</module>
         <module>Netty</module>
+        <module>SpringBoot</module>
     </modules>
 
     <packaging>pom</packaging>
