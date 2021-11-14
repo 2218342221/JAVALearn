@@ -10,7 +10,7 @@
     <modules>
         <module>ActiveMQ</module>
         <module>RPC</module>
-        <module>LeetCode</module>
+        <module>Others</module>
         <module>NIO</module>
         <module>RocketMQ</module>
         <module>Netty</module>
