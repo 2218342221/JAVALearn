@@ -31,7 +31,7 @@
         <activemq.version>5.16.0</activemq.version>
         <rocketmq.starter.version>2.2.0</rocketmq.starter.version>
         <jedis.version>3.3.0</jedis.version>
-        <fastjson.version>1.2.73</fastjson.version>
+        <fastjson.version>1.2.83</fastjson.version>
         <druid-spring-boot-starter.version>1.1.22</druid-spring-boot-starter.version>
         <mybatis.spring.boot.version>2.1.1</mybatis.spring.boot.version>
         <netty.version>4.1.60.Final</netty.version>
